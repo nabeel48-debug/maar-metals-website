@@ -5,9 +5,9 @@
  * 
  * SHOP OWNER INSTRUCTION:
  * Replace the number below with your actual 10-digit or 12-digit WhatsApp phone number
- * (include country code, e.g., '919894123286' for India).
+ * (include country code, e.g., '919087055806 for India).
  */
-const WHATSAPP_NUMBER = "919894123286"; 
+const WHATSAPP_NUMBER = "919087055806"; 
 
 // App State
 const state = {
