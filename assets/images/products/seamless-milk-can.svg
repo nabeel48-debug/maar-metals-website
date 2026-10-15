@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="can-shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="can-metal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="25%" stop-color="#E2E8F0"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="75%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="250" cy="365" rx="110" ry="16" fill="url(#can-shadow)"/>
+  
+  <!-- Base Ring -->
+  <rect x="160" y="325" width="180" height="25" rx="5" fill="#334155"/>
+
+  <!-- Seamless Cylindrical Body -->
+  <path d="M 190 120 L 165 170 L 165 330 C 165 345, 335 345, 335 330 L 335 170 L 310 120 Z" fill="url(#can-metal)"/>
+  <rect x="240" y="170" width="30" height="155" fill="#FFFFFF" opacity="0.35"/>
+
+  <!-- Neck -->
+  <rect x="195" y="85" width="110" height="35" fill="url(#can-metal)"/>
+
+  <!-- Mushroom Lock Lid -->
+  <ellipse cx="250" cy="85" rx="65" ry="14" fill="#334155"/>
+  <ellipse cx="250" cy="80" rx="62" ry="11" fill="#F8FAFC"/>
+
+  <!-- Overhead Bail Handle -->
+  <path d="M 160 170 C 160 30, 340 30, 340 170" stroke="#1E293B" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <rect x="220" y="38" width="60" height="18" rx="6" fill="#64748B"/>
+
+  <!-- Stamped Brand Hallmark -->
+  <rect x="210" y="240" width="80" height="24" rx="4" fill="#0F172A" opacity="0.2"/>
+  <text x="250" y="252" font-family="'Poppins', sans-serif" font-weight="900" font-size="8.5" fill="#1E293B" text-anchor="middle" letter-spacing="1">MAAR METALS</text>
+  <text x="250" y="260" font-family="'Inter', sans-serif" font-weight="700" font-size="6" fill="#334155" text-anchor="middle" letter-spacing="1">DAIRY GRADE G10</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="thali-shdw" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="thali-metal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#F1F5F9"/>
+      <stop offset="80%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="250" cy="220" rx="210" ry="90" fill="url(#thali-shdw)"/>
+  <!-- Raised Border -->
+  <ellipse cx="250" cy="195" rx="205" ry="85" fill="#334155"/>
+  <ellipse cx="250" cy="190" rx="200" ry="82" fill="#FFFFFF"/>
+  <ellipse cx="250" cy="195" rx="190" ry="74" fill="#94A3B8"/>
+  <ellipse cx="250" cy="198" rx="168" ry="62" fill="url(#thali-metal)"/>
+  <ellipse cx="250" cy="198" rx="120" ry="40" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.6"/>
+  <!-- Brand Seal Center -->
+  <ellipse cx="250" cy="198" rx="28" ry="12" fill="#0F172A" opacity="0.2"/>
+  <text x="250" y="202" font-family="'Poppins', sans-serif" font-weight="900" font-size="9" fill="#1E293B" text-anchor="middle" letter-spacing="1">MAAR METALS</text>
+</svg>

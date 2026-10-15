@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 80" width="360" height="80">
+  <defs>
+    <linearGradient id="logo-metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="35%" stop-color="#CBD5E1" />
+      <stop offset="70%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="logo-badge-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Mark Container -->
+  <rect x="6" y="8" width="64" height="64" rx="16" fill="url(#logo-badge-bg)" stroke="#334155" stroke-width="2" />
+  
+  <!-- Metallic Inner Ingot / Cookware Silhouette -->
+  <path d="M 20 28 L 56 28 L 50 56 L 26 56 Z" fill="none" stroke="url(#logo-metal)" stroke-width="2.5" stroke-linejoin="round" />
+  <ellipse cx="38" cy="28" rx="18" ry="4" fill="url(#logo-metal)" />
+  <circle cx="38" cy="22" r="3" fill="#FFFFFF" />
+
+  <!-- Bold Metallic 'M' Monogram in Center -->
+  <text x="38" y="49" font-family="'Poppins', 'Inter', sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">M</text>
+
+  <!-- Brand Typography -->
+  <text x="86" y="38" font-family="'Poppins', 'Inter', sans-serif" font-weight="900" font-size="26" fill="#0F172A" letter-spacing="0.5">MAAR METALS</text>
+  <text x="88" y="56" font-family="'Inter', sans-serif" font-weight="600" font-size="11" fill="#64748B" letter-spacing="1.5">M A ABDUL RAHMAN METALS</text>
+  <text x="88" y="70" font-family="'Inter', sans-serif" font-weight="700" font-size="8.5" fill="#10B981" letter-spacing="1.5">★ 100% PURE VIRGIN ALUMINIUM</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <!-- Stand -->
+  <rect x="110" y="140" width="280" height="38" rx="4" fill="#1E293B"/>
+  <rect x="120" y="178" width="24" height="160" fill="#0F172A"/>
+  <rect x="356" y="178" width="24" height="160" fill="#0F172A"/>
+  <rect x="120" y="275" width="260" height="16" fill="#1E293B"/>
+  <!-- Burner -->
+  <ellipse cx="250" cy="140" rx="65" ry="25" fill="#334155"/>
+  <ellipse cx="250" cy="136" rx="55" ry="20" fill="#475569"/>
+  <ellipse cx="250" cy="132" rx="42" ry="14" fill="#0EA5E9" opacity="0.85"/>
+  <ellipse cx="250" cy="130" rx="26" ry="8" fill="#38BDF8"/>
+  <!-- Brass Valve -->
+  <rect x="238" y="195" width="24" height="18" fill="#EAB308"/>
+  <circle cx="250" cy="225" r="10" fill="#DC2626"/>
+  <!-- Heavy Support Bars -->
+  <rect x="125" y="122" width="250" height="18" rx="3" fill="#475569"/>
+  <!-- Brand Plate -->
+  <rect x="185" y="270" width="130" height="26" rx="4" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <text x="250" y="287" font-family="'Poppins', sans-serif" font-weight="900" font-size="10" fill="#F8FAFC" text-anchor="middle" letter-spacing="1.5">MAAR METALS</text>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="photoref-shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="photo-metal-body" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="15%" stop-color="#94A3B8"/>
+      <stop offset="35%" stop-color="#F8FAFC"/>
+      <stop offset="55%" stop-color="#CBD5E1"/>
+      <stop offset="85%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="photo-rim-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="30%" stop-color="#F1F5F9"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <radialGradient id="hammer-dimple" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#94A3B8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.5"/>
+    </radialGradient>
+    <filter id="soft-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Ground Soft Drop Shadow -->
+  <ellipse cx="250" cy="360" rx="170" ry="22" fill="url(#photoref-shadow)"/>
+
+  <!-- Deg Cauldron Body -->
+  <path d="M 130 145 C 112 215, 96 280, 126 325 C 150 355, 350 355, 374 325 C 404 280, 388 215, 370 145 Z" fill="url(#photo-metal-body)" filter="url(#soft-glow)"/>
+
+  <!-- Authentic Hammered Marks Texture Grid -->
+  <g opacity="0.55">
+    <ellipse cx="170" cy="190" rx="10" ry="6" fill="url(#hammer-dimple)"/>
+    <ellipse cx="210" cy="185" rx="12" ry="7" fill="url(#hammer-dimple)"/>
+    <ellipse cx="250" cy="188" rx="13" ry="8" fill="url(#hammer-dimple)"/>
+    <ellipse cx="290" cy="185" rx="12" ry="7" fill="url(#hammer-dimple)"/>
+    <ellipse cx="330" cy="190" rx="10" ry="6" fill="url(#hammer-dimple)"/>
+
+    <ellipse cx="155" cy="235" rx="11" ry="7" fill="url(#hammer-dimple)"/>
+    <ellipse cx="195" cy="230" rx="13" ry="8" fill="url(#hammer-dimple)"/>
+    <ellipse cx="250" cy="232" rx="14" ry="9" fill="url(#hammer-dimple)"/>
+    <ellipse cx="305" cy="230" rx="13" ry="8" fill="url(#hammer-dimple)"/>
+    <ellipse cx="345" cy="235" rx="11" ry="7" fill="url(#hammer-dimple)"/>
+
+    <ellipse cx="175" cy="280" rx="12" ry="8" fill="url(#hammer-dimple)"/>
+    <ellipse cx="225" cy="282" rx="14" ry="9" fill="url(#hammer-dimple)"/>
+    <ellipse cx="275" cy="282" rx="14" ry="9" fill="url(#hammer-dimple)"/>
+    <ellipse cx="325" cy="280" rx="12" ry="8" fill="url(#hammer-dimple)"/>
+  </g>
+
+  <!-- Specular Chrome Reflection Highlight Streak -->
+  <path d="M 270 148 Q 285 240 295 332 Q 280 334 265 332 Q 255 240 240 148 Z" fill="#FFFFFF" opacity="0.38"/>
+
+  <!-- Flanged Collar Neck (Dough Dum Seal Rim) -->
+  <ellipse cx="250" cy="145" rx="125" ry="22" fill="url(#photo-rim-grad)"/>
+  <ellipse cx="250" cy="141" rx="118" ry="17" fill="#F8FAFC"/>
+  <ellipse cx="250" cy="144" rx="112" ry="14" fill="#94A3B8"/>
+
+  <!-- Matching Heavy Domed Cover Lid -->
+  <path d="M 136 135 C 136 82, 364 82, 364 135 Z" fill="url(#photo-metal-body)"/>
+  <ellipse cx="250" cy="135" rx="118" ry="15" fill="url(#photo-rim-grad)"/>
+  <ellipse cx="250" cy="132" rx="114" ry="12" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Heavy Cast Center Knob Handle -->
+  <ellipse cx="250" cy="85" rx="22" ry="11" fill="url(#photo-rim-grad)"/>
+  <rect x="244" y="78" width="12" height="10" fill="#475569"/>
+  <ellipse cx="250" cy="78" rx="16" ry="6" fill="#FFFFFF" opacity="0.9"/>
+
+  <!-- Laser Etched Manufacturer Brand Hallmark -->
+  <rect x="210" y="240" width="80" height="26" rx="5" fill="#0F172A" opacity="0.2"/>
+  <text x="250" y="253" font-family="'Poppins', sans-serif" font-weight="900" font-size="9" fill="#1E293B" text-anchor="middle" letter-spacing="1.5">MAAR METALS</text>
+  <text x="250" y="262" font-family="'Inter', sans-serif" font-weight="700" font-size="6.5" fill="#334155" text-anchor="middle" letter-spacing="1">GAUGE 10 VIRGIN</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="handi-shdw" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="handi-metal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="25%" stop-color="#CBD5E1"/>
+      <stop offset="45%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="250" cy="355" rx="140" ry="18" fill="url(#handi-shdw)"/>
+  <!-- Pot Belly -->
+  <path d="M 160 145 C 80 195, 80 295, 150 330 C 190 350, 310 350, 350 330 C 420 295, 420 195, 340 145 Z" fill="url(#handi-metal)"/>
+  <path d="M 270 146 Q 300 220 300 335 Q 275 338 250 335 Q 260 220 230 146 Z" fill="#FFFFFF" opacity="0.35"/>
+  <!-- Neck Collar -->
+  <ellipse cx="250" cy="145" rx="90" ry="16" fill="#1E293B"/>
+  <ellipse cx="250" cy="140" rx="96" ry="17" fill="#E2E8F0"/>
+  <ellipse cx="250" cy="138" rx="88" ry="13" fill="#FFFFFF"/>
+  <ellipse cx="250" cy="132" rx="80" ry="11" fill="#334155"/>
+  <circle cx="250" cy="116" r="12" fill="#1E293B"/>
+  <circle cx="250" cy="112" r="7" fill="#FFFFFF" opacity="0.8"/>
+  <!-- Hallmark -->
+  <rect x="210" y="240" width="80" height="24" rx="4" fill="#0F172A" opacity="0.2"/>
+  <text x="250" y="252" font-family="'Poppins', sans-serif" font-weight="900" font-size="8.5" fill="#1E293B" text-anchor="middle" letter-spacing="1">MAAR METALS</text>
+  <text x="250" y="260" font-family="'Inter', sans-serif" font-weight="700" font-size="6" fill="#334155" text-anchor="middle" letter-spacing="1">DUM HANDI G10</text>
+</svg>
